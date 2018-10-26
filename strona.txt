@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Igor Pieczynski</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+	<div class="top">
+		<div>
+			<h2>Igor Pieczynski</h2>
+		</div>
+		<div id="zegar"></div>
+	</div>
+	<hr>
+
+	<div class="box">
+		<div class="box1">
+
+			<div class="me" onclick="me();">
+					<div class="sq1">
+						<center>
+							<i class="fas fa-user fa-3x"></i>
+							<p>Troszke o mnie</p>
+						</center>
+					</div>
+			</div>
+
+			<div class="contact" onclick="contact();">
+					<div class="sq2">
+						<center>
+							<i class="fas fa-envelope fa-3x"></i>
+							<p>Kontakt</p>
+						</center>
+					</div>
+			</div>
+
+			<div class="projects" onclick="projects();">
+					<div class="sq3">
+						<center>
+							<i class="fas fa-briefcase fa-3x"></i>
+							<p>Projekty</p>
+						</center>
+					</div>
+			</div>
+
+		</div>
+
+		<div class="box2">
+			<h2 id="sq5"><noscript>This page requires Javascript!</noscript></h2>
+		</div>
+	</div>
+
+	<div id="sq6">
+		<a href="https://www.facebook.com/igor.pieczynski.5">
+			<div class="fb">
+				<i class="fab fa-facebook fa-3x"></i>
+			</div>
+		</a>
+		<a href="https://github.com">
+			<div class="git">
+				<i class="fab fa-github fa-3x"></i>
+			</div>
+		</a>
+		<a href="https://www.youtube.com/channel/UCDcUjExzvU0TG2IPdv_R1Mg?view_as=subscriber">
+			<div class="yt">
+				<i class="fab fa-youtube fa-3x"></i>
+			</div>
+		</a>
+		<div style="clear:both;"> </div>
+	</div>
+	</div>
+
+	<div class="end">
+		<center>&copy 2018 Igor Pieczynski</center>
+	</div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
